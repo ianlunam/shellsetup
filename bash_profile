@@ -46,3 +46,5 @@ PROMPT_COMMAND='echo -ne "\033]0; ${PWD}\007"'
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+alias df1='df --type btrfs --type ext4 --type ext3 --type ext2 --type vfat --type iso9660'
